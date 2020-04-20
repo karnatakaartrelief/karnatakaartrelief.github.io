@@ -1,0 +1,52 @@
+
+.blue {
+    background-color: #80B3F2;
+}
+
+.section-title {
+    text-align: center;
+    color: black;
+    text-transform: uppercase;
+    position: absolute;
+    max-width: 80%;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  
+}
+
+h2 {
+    font-size: 3.5em;
+    font-weight: 100;
+}
+
+h3 {
+    font-size: 2em;
+    font-weight: 100;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+section {
+    height: auto;
+    min-height: 400px;
+    position: relative;
+}
+
+.separator {
+    position: absolute;
+    top: 0;
+}
+
+.separator-bottom {
+    position: absolute;
+    bottom: 0;
+}
+
+#five .section-title {
+    padding-bottom:2.5em;
+}
